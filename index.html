@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Special 1 Tahun💕</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+    <!-- Halaman Password -->
+    <div class="container" id="passwordPage">
+        <div class="heart-animation">💖</div>
+        <h1>Selamat Datang Sayang</h1>
+        <p>Masukkan password rahasia kita untuk melanjutkan...</p>
+        <div class="password-form">
+            <input type="password" id="passwordInput" placeholder="Tanggal Jadian...." maxlength="20">
+            <button onclick="checkPassword()">Masuk</button>
+        </div>
+        <div class="error-message" id="errorMessage"></div>
+    </div>
+
+    <!-- Halaman Welcome -->
+    <div class="container hidden" id="welcomePage">
+        <div class="hearts-bg"></div>
+        <h1>💕 1 Tahun Bersama Ayang 💕</h1>
+        <p class="date">2 Agustus 2024 - 2 Agustus 2025</p>
+        <div class="welcome-text">
+            <p>Hai sayang... Sudah setahun kita bersama!</p>
+            <p>Aku membuat website khusus ini untukmu ya walaupun jelek dan sederhana gini karna jujur buatnya dadakan banget, buat jam 23:11 tanggal 1 Agustus 2025💖</p>
+            <p><small>Scroll kebawah 💕</small></p>
+        </div>
+    </div>
+
+    <!-- Halaman Utama -->
+    <div class="container hidden" id="mainContent">
+        <nav class="navigation">
+            <button onclick="showPage('timeline')" class="nav-btn active">Perjalanan Kita</button>
+            <button onclick="showPage('wishes')" class="nav-btn">Harapan</button>
+            <button onclick="showPage('letter')" class="nav-btn">Surat Cinta</button>
+            <button onclick="showPage('memories')" class="nav-btn">Kenangan</button>
+            <button onclick="showPage('barcode')" class="nav-btn">Ada sesuatu nich...</button>
+        </nav>
+
+        <!-- Timeline Page -->
+        <div class="page-content" id="timeline">
+            <h2>Timeline Perjalanan Cinta Kita 💕</h2>
+            <div class="timeline-item">
+                <div class="timeline-date">4 Juni 2024</div>
+                <div class="timeline-content">
+                    <h3>Hari Pertama Kita 💖</h3>
+                    <p>Hari dimana semuanya dimulai... Hari terindah dalam hidupku, hari dimana aku ketemu ayang dari rekrutan ml xixixi</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">10 Juni 2024</div>
+                <div class="timeline-content">
+                    <h3>pertama kali tukeran wa</h3>
+                    <p>Mulai tukeran wa dan chatan nih yang ditanggal segini wkwk</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">24 Juli 2024</div>
+                <div class="timeline-content">
+                    <h3>Mulai deket kita disini</h3>
+                    <p>Mulai pasang afinitas lovers</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2 Agustus 2024</div>
+                <div class="timeline-content">
+                    <h3>Awal mula kita pacaran</h3>
+                    <p>Hari dimana semuanya dimulai sayang, kita sudah berpacaran ditanggal segini</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2 Agustus 2025</div>
+                <div class="timeline-content">
+                    <h3>1 Tahun Anniversary! 🎉</h3>
+                    <p>YEAYYYYYY Hari ini kita merayakan 1 tahun kebersamaan kita sayang xixixi!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Memories Page -->
+        <div class="page-content hidden" id="memories">
+            <h2>Kenangan Terindah Kita 📸</h2>
+            <div class="memory-grid">
+                <div class="memory-card">
+                    <div class="memory-icon">🎮</div>
+                    <h3>Bermula dari game</h3>
+                    <p>Masih inget awal kita main bareng sampe tengah malam? Hihi</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">📱</div>
+                    <h3>Chat pertama</h3>
+                    <p>Masih inget chat pertama kita yang awkward banget? Hihi</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">📷</div>
+                    <h3>Vc pertama kali</h3>
+                    <p>Aku malu awalnya buat nunjukin muka, gatau kalo kamu gimana</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">📞</div>
+                    <h3>Telponan Sampai Ketiduran</h3>
+                    <p>Video call 8 jam lebih, bangun-bangun masih nyambung</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Letter Page -->
+        <div class="page-content hidden" id="letter">
+            <h2>Surat Cinta Untukmu 💌</h2>
+            <div class="letter-content">
+                <p>Sayang...</p>
+                <p>Gak nyangka ya, udah setahun kita bersama. Rasanya baru kemarin kita mulai mabar, PDKT, sekarang udah anniversary pertama aja!</p>
+                <p>Selama setahun ini, ayang udah ngasih warna baru dalam hidup aku. Hari-hari jadi lebih berwarna, lebih berarti, dan tentunya lebih bahagia.</p>
+                <p>ayang tahu gak? Setiap bangun tidur, hal pertama yang aku pikirin itu ayang. Setiap mau tidur, ayang juga yang terakhir ada di pikiran aku. ayang mana pernah kek gini soalnya kebo selalu tidur tanpa aba" sih</p>
+                <p>Makasih ya sayang, udah mau bertahan sama aku yang kadang nyebelin, keras kepala, tapi sayang sama ayang. Makasih udah sabarin aku, makasih udah jadi tempat aku bercerita, makasih udah jadi rumah buat aku.</p>
+                <p>Aku berharap kita bisa terus bersama, melewati hari-hari selanjutnya, sampai rambut kita memutih nanti. Aamiin...</p>
+                <p>I love you so much, sayang 💕</p>
+                <div class="signature">
+                    <p>Dengan cinta,</p>
+                    <p><strong>Pacar tersayangmu 💖</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Control Button -->
+        <div class="music-control">
+            <button onclick="toggleMusic()" class="music-btn" title="Toggle Music">🎵</button>
+        </div>
+
+        <!-- Wishes Page -->
+        <div class="page-content hidden" id="wishes">
+            <h2>Harapan untuk Kita 🌟</h2>
+            <div class="wishes-container">
+                <div class="wish-item">
+                    <span class="wish-number">1</span>
+                    <p>Semoga kita bisa terus bahagia seperti ini</p>
+                </div>
+                <div class="wish-item">
+                    <span class="wish-number">2</span>
+                    <p>Semoga kita bisa saling mendukung dalam menggapai mimpi</p>
+                </div>
+                <div class="wish-item">
+                    <span class="wish-number">3</span>
+                    <p>Semoga kita bisa ketemu dan megnghabiskan waktu bersama</p>
+                </div>
+                <div class="wish-item">
+                    <span class="wish-number">4</span>
+                    <p>Semoga hubungan kita semakin kuat dan langgeng</p>
+                </div>
+                <div class="wish-item">
+                    <span class="wish-number">5</span>
+                    <p>Semoga suatu hari nanti kita bisa hidup bersama selamanya</p>
+                </div>
+            </div>
+            <div class="final-message">
+                <h3>Happy 1st Anniversary Sayang! 💕</h3>
+                <p>Thank you for being my everything 💖</p>
+            </div>
+        </div>
+
+        <!-- barcode -->
+         <div class="page-content hidden" id="barcode">
+            <h2>Scan dibawah sayang...</h2>
+            <div style="text-align: center;">
+         <img src="barcode.jpg" alt="" width="500" height="700">
+         </div>
+         </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
