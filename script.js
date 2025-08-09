@@ -74,7 +74,7 @@ function slideToMainContent() {
 // Fungsi untuk menampilkan halaman tertentu
 function showPage(pageId) {
     // Sembunyikan semua halaman content
-    const pages = ['timeline', 'memories', 'letter', 'wishes'];
+    const pages = ['timeline', 'memories', 'letter', 'wishes','barcode'];
     pages.forEach(page => {
         const pageElement = document.getElementById(page);
         if (pageElement) {
@@ -97,7 +97,8 @@ function showPage(pageId) {
         'timeline': 'Timeline Kita',
         'memories': 'Kenangan',
         'letter': 'Surat Cinta',
-        'wishes': 'Harapan'
+        'wishes': 'Harapan',
+        'barcode': 'barcode'
     };
     
     navButtons.forEach(btn => {
